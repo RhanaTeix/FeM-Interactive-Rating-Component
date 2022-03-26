@@ -1,6 +1,7 @@
 # FeM-Interactive-Rating-Component
 >A Challenge from Front-end Mentor to create a Interactive Rating Component, 1 to 5 and a thank message
-<!--> Live demo [_here_](https://www.example.com).  When on gitpage or vercel include the link here. -->
+
+<!-- Live demo [_here_](https://www.example.com).  When on gitpage or vercel include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
