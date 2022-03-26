@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/*font-family: 'Overpass', sans-serif;*/
+
+:root {
+  --orange: hsl(25, 97%, 53%);
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --dark-blue: hsl(213, 19%, 18%);
+  --very-dark-blue: hsl(216, 12%, 8%);
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+
+/*The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+@media (min-width: 375px){
+  body {
+    background-color: var(--very-dark-blue);
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  main {
+    grid-column: 2/3;
+    background-color: var(--dark-blue);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 0;
+    box-shadow: inset 10px -10px 100px 0px var(--very-dark-blue);
+  }
+
+  .section-grid {
+    width: 100%;
+    padding: .5em;
+    display: flexbox;
+  }
+
+  .section-content header {
+    padding-bottom: 5px;
+  }
+
+  .section-content header h1{
+    color: var(--white);
+    font-size: 1.3em;
+  }
+
+  .section-content p{
+    color: var(--light-grey);
+    font-weight: 400;
+    font-size: .7em;
+    padding-top: 8px;
+    line-height: 1.7;
+  }
+
+  .section-rating{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section-rating .button-rating {
+    font-size: .8em;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: var(--medium-grey);
+    filter: brightness(1.2);
+  }
+
+  .section-button-submit #button-submit{
+    width: 100%;
+    background-color: var(--orange);
+    border-radius: 30px;
+    height: 30px; 
+    border: none;
+    font-size: 11px;
+    color: var(--white);
+    text-align: center;
+  }
+
+  .section-img-star {
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: var(--medium-grey);
+    filter: brightness(1.2);
+    
+  }
+}
+
+@media (min-width: 1440px) {
+
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*
+body {
+  background-color: black;"
+}
+*/
