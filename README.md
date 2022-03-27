@@ -1,5 +1,5 @@
 # FeM-Interactive-Rating-Component
->A Challenge from Front-end Mentor to create a Interactive Rating Component, 1 to 5 and a thank message
+>A Challenge from Front-end Mentor to create a Interactive Rating Component, 1 to 5 and a thank you message
 
 <!-- Live demo [_here_](https://www.example.com).  When on gitpage or vercel include the link here. -->
 
@@ -7,7 +7,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Notes](#notes)
-* [Screenshots](#screenshots)
+<!--* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -50,9 +50,6 @@ Recording my process of learning:
 -body ok - gap 0
 -star img - stil figuring out
 -Learned a lot today but still not quite the way it was supposed to look.
-
--Day 3: 
-[]Plan to finish front part and back part, maybe start js as well
 
 to be continued...
 <!--## Screenshots
